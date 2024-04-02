@@ -12,30 +12,39 @@ This script is designed to run on a virtual machine (VM) and listen for incoming
 
 1. Ensure that g++ is installed on your VM. If not, you can install it by running:
 
+```bash
 	➜ ~ sudo apt-get update && sudo apt-get install g++ -y
+```
 
 2. Copy the script file textTransfer.cpp to your VM.
 
 3. Compile the source code using g++:
 
+```bash
 	➜ ~ g++ textTransfer.cpp -o textReceiver
+```
 
 4. Grant execution permissions to the compiled binary:
 
-
+```bash
 	➜ ~ chmod +x textReceiver
+```
 
 # Usage
 
 Run the script on your VM to start listening for incoming connections:
 
-	➜ ~ ./textReceiver
+```bash
+➜ ~ ./textReceiver
+```
 
 The script will listen on port 13423 by default. Ensure that this port is open in your VM's firewall settings.
 
 From the host machine or another machine, you can send text to your VM using a tool like nc (netcat). For example:
 
+```bash
 ➜ ~ echo "Hello, VM!" | nc <VM_IP_ADDRESS> 13423
+```
 
 Replace <VM_IP_ADDRESS> with the actual IP address of your VM.
 
