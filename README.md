@@ -18,6 +18,10 @@ sudo apt-get update && sudo apt-get install g++ -y
 
 2. Copy the script file textTransfer.cpp to your VM.
 
+```bash
+git clone https://github.com/kzegani/cp-host-vm.git && cd ./cp-host-vm
+```
+
 3. Compile the source code using g++:
 
 ```bash
