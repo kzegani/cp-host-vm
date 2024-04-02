@@ -21,13 +21,11 @@ This script is designed to run on a virtual machine (VM) and listen for incoming
 	➜ ~ g++ textTransfer.cpp -o textReceiver
 
 4. Grant execution permissions to the compiled binary:
-
 	➜ ~ chmod +x textReceiver
 
 # Usage
 
 Run the script on your VM to start listening for incoming connections:
-
 	➜ ~ ./textReceiver
 
 The script will listen on port 13423 by default. Ensure that this port is open in your VM's firewall settings.
