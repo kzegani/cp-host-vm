@@ -13,7 +13,7 @@ This script is designed to run on a virtual machine (VM) and listen for incoming
 1. Ensure that g++ is installed on your VM. If not, you can install it by running:
 
 ```bash
-	➜ ~ sudo apt-get update && sudo apt-get install g++ -y
+➜ ~ sudo apt-get update && sudo apt-get install g++ -y
 ```
 
 2. Copy the script file textTransfer.cpp to your VM.
@@ -21,13 +21,13 @@ This script is designed to run on a virtual machine (VM) and listen for incoming
 3. Compile the source code using g++:
 
 ```bash
-	➜ ~ g++ textTransfer.cpp -o textReceiver
+➜ ~ g++ textTransfer.cpp -o textReceiver
 ```
 
 4. Grant execution permissions to the compiled binary:
 
 ```bash
-	➜ ~ chmod +x textReceiver
+➜ ~ chmod +x textReceiver
 ```
 
 # Usage
