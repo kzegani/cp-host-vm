@@ -16,7 +16,7 @@ This script is designed to run on a virtual machine (VM) and listen for incoming
 sudo apt-get update && sudo apt-get install g++ -y
 ```
 
-2. Copy the script file textTransfer.cpp to your VM.
+2. Clone the script file textTransfer.cpp to your VM.
 
 ```bash
 git clone https://github.com/kzegani/cp-host-vm.git && cd ./cp-host-vm

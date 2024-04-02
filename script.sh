@@ -15,4 +15,4 @@ touch output
 #Grant execution permissions to the compiled binary
 chmod +x textReceiver
 
-./textReceiver
+./textReceiver >> output
