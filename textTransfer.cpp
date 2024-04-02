@@ -43,7 +43,7 @@ int main() {
 
 	ssize_t n_read = read(new_socket, buffer, 1023);
 
-	buffer[n_read] = '0';
+	buffer[n_read] = '\0';
 	if (n_read > 0) {
 		std::cout << "Recaived: " << buffer << std::endl ;
 	} else if (n_read == 0) {
